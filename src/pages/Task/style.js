@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor: "#000000",
+    backgroundColor: "#2C2F33",
     paddingTop: 20
   },
   Tasks:{
@@ -19,13 +19,13 @@ const styles = StyleSheet.create({
   DescriptonTask:{
     width: "75%",
     alignContent:"flex-start",
-    backgroundColor: "#f5f5f5cf",
+    backgroundColor: "#36393F",
     padding: 12,
     paddingHorizontal: 20,
     borderRadius: 50,
     marginBottom: 5,
     marginRight: 15,
-    color:"#282b25",
+    color:"#DCDDDE",
   },
   buttonNewTask: {
     width: 60,
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     left: 20,
     borderRadius: 50,
     position: "absolute",
-    backgroundColor: "#f92e6A",
+    backgroundColor: "#6370F4",
     justifyContent: "center",
     alignItems: "center"
   },

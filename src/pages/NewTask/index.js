@@ -11,12 +11,12 @@ export default function NewTask({ navigation }) {
       description: description,
       status: false
     })
-    navigation.navigate("Task")
+    navigation.navigate("Lista de Tarefas")
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>Description</Text>
+      <Text style={styles.label}>Descrição</Text>
       <TextInput
         style={styles.inputText}
         placeholder="Ex: Proxima tarefa..."

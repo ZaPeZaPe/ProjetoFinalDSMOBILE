@@ -12,12 +12,12 @@ export default function Details({ navigation, route }) {
     database.collection("Tasks").doc(id).update({
       description: descriptionEdit
     })
-    navigation.navigate("Task");
+    navigation.navigate("Lista de Tarefas");
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>Description</Text>
+      <Text style={styles.label}>Editar detalhes</Text>
       <TextInput
         style={styles.inputText}
         placeholder="Ex: Tarefa modificada..."

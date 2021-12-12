@@ -3,14 +3,14 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'#fff'
+    backgroundColor:'#2C2F33'
   },
   label: {
     width: '90%',
     marginTop: 20,
     marginLeft: 20,
     fontSize:16,
-    color: '#F92e6A'
+    color: '#6370F4'
   },
   inputText: {
     width: '90%',
@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
     height: 50,
     marginTop: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#F92e6A',
+    borderBottomColor: '#6370F4',
+    color: "#DCDDDE",
     marginLeft: 'auto',
     marginRight: 'auto'
   },
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
     left: 20,
     borderRadius: 50,
     position: "absolute",
-    backgroundColor: "#f92e6A",
+    backgroundColor: "#6370F4",
     justifyContent: "center",
     alignItems: "center"
   },

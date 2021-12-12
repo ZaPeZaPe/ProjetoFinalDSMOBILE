@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {  View, Text, TouchableOpacity, FlatList } from 'react-native';
 import database from "../../config/firebaseconfig";
-import {  FontAwesome  } from "@expo/vector-icons";
+import {  Entypo  } from "@expo/vector-icons";
 import styles from "./style";
 
 export default function Task({ navigation }) {
@@ -35,17 +35,17 @@ export default function Task({ navigation }) {
                 deleteTask(item.id)
               }}
             >
-            <FontAwesome
-              name='star'
+            <Entypo
+              name='erase'
               size={23}
-              color="#F92e6A"
+              color="#6370F4"
             >
-            </FontAwesome>
+            </Entypo>
             </TouchableOpacity>
             <Text
               style={styles.DescriptonTask}
               onPress={()=> {
-                navigation.navigate("Details", {
+                navigation.navigate("Detalhes", {
                   id: item.id,
                   description: item.description
                 })
@@ -60,7 +60,7 @@ export default function Task({ navigation }) {
       />
       <TouchableOpacity style
         style={styles.buttonNewTask}
-        onPress={() => navigation.navigate("New Task")}
+        onPress={() => navigation.navigate("Nova Tarefa")}
       >
         <Text style={styles.iconButton}>+</Text>
       </TouchableOpacity>
